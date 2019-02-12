@@ -1,0 +1,26 @@
+<p>Please Type in the Title of the Movie</p>
+
+<input [(ngModel)]="movieTitle" placeholder="title"/>
+<button (click)="searchForMovie(movieTitle)">Search</button>
+
+<ul>
+  <li (click)="findMovieDetails(movie)" *ngFor="let movie of movies">
+    {{movie.Title}}
+  </li>
+</ul>
+
+<p>{{details.Error}}</p>
+
+<p>Title: {{details.Title}}</p>
+
+<p>Release Date: {{details.Released}} </p>
+
+<p>Genre: {{details.Genre}}</p>
+
+<p>Director: {{details.Director}}</p>
+
+<p>Writer: {{details.Writer}}</p>
+
+<p>{{details.Plot}}</p>
+
+
