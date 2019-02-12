@@ -1,5 +1,21 @@
 # moviesearchengine
 
+##Project Title
+
+Movie Search Engine
+
+##Prerequisites
+
+Node.js
+Angular
+Webstorm
+
+##Installing
+
+I used typescript to do this project, with a directory called movie-search. Basically I put all the methods in the services directory, and I called them in the movie-search component. I didn't finish the returning status part and the display plot if the movie was released after 2015. However, I do think that it can be accomplished by using if statement and transfer the variables from string to boolean, and I have some code that should transform the string variables to boolean variables, I just didn't have enough time to make it work. The plot display part can also be accomplished by transfer the variables type from string to date.
+
+The search engine will display all the results that it can find from the website, and users can click on the name of the movie then get the detail results displayed.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
 
 ## Development server
